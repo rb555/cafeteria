@@ -1,0 +1,198 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+@media all and (min-width:600px) and (max-width:1024px){
+  #parte1, #parte2, #parte3, #parte4 { 
+    width: 80%;
+  }
+   
+  }
+
+
+@media all and (max-width:599px){
+  #parte1, #parte2, #parte3, #parte4 {
+    width: 50%;
+  }
+}
+header, section, footer{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Pacifico', cursive;
+}
+header{
+  height: 180px;
+  background: linear-gradient(to right, #ffe25a 0%, #ffa852 100%);
+}
+.marca{
+  width: 170px;
+  height: 120px;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 10px;
+  float: left;
+  font-family: 'Nuosu SIL', serif;
+  font-size: 15px;
+}
+h1{
+  margin: 25px;
+}
+#isologo{
+  float: inline-end;
+  font-family: 'Nuosu SIL', serif;
+  font-size: large;
+  margin-bottom: 15px;
+}
+
+#botonera {
+  width: 600px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  background-color: none;
+  float: right;
+}
+#botonera li{
+  display: inline;
+}
+#botonera li a{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  border: 1px #610351 solid;
+  color: #610351;
+  font-family: 'Nuosu SIL', serif;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+}
+#botonera li a:hover{
+  background-color: #fcba03;
+}
+footer{
+  height: 60px;
+  background: linear-gradient(to right, #ffe25a 0%, #ffa852 100%);
+}
+h2{
+  margin: 0;
+  text-align: center;
+  padding: 0px;
+}
+#parte1{
+  height: 300px;
+  background: linear-gradient(to right, #ffe25a 0%, #ffa852 100%);
+}
+
+#parte1_caja1{
+  width: 500px;
+  height: 200px;
+  background: url(pexels-helena-ije-2867885.jpg);
+  background-size: cover;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+#parte1_caja2{
+  width: 400px;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: right;
+}
+#presentacion{
+  font-family: 'Nuosu SIL', serif;
+}
+#parte2{
+  height: 350px;
+  background: linear-gradient(to right, #ffe25a 0%, #ffa852 100%);
+}
+#parte2_caja1{
+  width: 450px;
+  height: 280px;
+  background: url(granoscafefondo.jpg);
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+#parte2_caja2{
+  width: 450px;
+  height: 280px;
+  background: url(cucharitas.jpg);
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+#parte3{
+  height: 180px;
+  background: linear-gradient(to right, #ffe25a 0%, #ffa852 100%);
+  text-align: center;
+}
+
+
+.cafe{
+  display: block;
+}
+
+#parte4{
+  height: 500px;
+  background: linear-gradient(to right, #ffe25a 0%, #ffa852 100%);
+}
+
+#news{
+  height: 100px;
+  padding: 5px;
+}
+
+#modulo1{
+  height: 100px;
+  padding: auto;
+}
+#modulo2 {
+  width: 300px;
+  height: 480px;
+  padding: 5px;
+  margin-left: 15px;
+  margin-top: 5px;
+  float: left;
+}
+#modulo3 {
+  width: 550px;
+  height: 480px;
+  padding: 5px;
+  float: right;
+}
+input.form-control {
+  display: inline-block;
+}
+#tituloSeccionTres {
+  justify-content: center;
+}
+#titulo_proximamente {
+  margin-top: 30px;
+  justify-content: center;
+}
+
+#proximamente {
+  margin-top: 20px;
+}
+.socialMedia {
+  text-align: center;
+  padding: 10px;
+}
+
+#pieDePagina {
+  text-align: center;
+}

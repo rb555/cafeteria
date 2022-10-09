@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1">
+    <title></title>
+    <!-- inicio estilos boostrap y css-->
+    <link rel="stylesheet" href=<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <!--fin estilos boostrap y css-->
+    <!--inicio fonts de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
+    <!--fin fonts de google-->
+  </head>
+  <body>
+    <header>
+      <div class="marca"><h1>Oro Negro</h1>
+        <p id="isologo">Café de especialidad</p>
+      </div>
+      <nav id="botonera">
+        <ul>
+          <li><a href="#parte1">Nosotros</a></li>
+          <li><a href="#parte2">Productos</a></li>
+          <li><a href="#parte3">Contacto</a></li>
+          <li><a href="#parte4">Novedades</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="parte1">
+      <h2>Nosotros</h2>
+      <div id="parte1_caja1">
+      </div>
+      <div id="parte1_caja2">
+        <p id="presentacion">Somos una empresa familiar platense con la misión de brindar café de especialidad. Nuestros granos de café son seleccionados cuidadosamente para garantizar el aroma y sabor característicos de cada variedad.</p>
+        <script src="unidad7.js"></script>
+      </div>
+    </section>
+    <section id="parte2"><a href="#parte2" onclick="interaccion();"></a>
+      <h2>Productos</h2>
+
+      <script src="unidad8.js"></script>
+      <script type="text/javascript"> 
+        var cartel = prompt("Querés conocer la frase de la semana?")
+        if(cartel = true){
+          alert ("Yo he medido mi vida en cucharitas de café (T.S. Eliot)")
+        } 
+        </script>  
+      <div id="parte2_caja1">
+        <ul class="cafe">
+          <li class="cafe">Americano</li>
+          <li class="cafe">Cortado</li>
+          <li class="cafe">Café con leche</li>
+          <li class="cafe">Ristretto</li>
+          <li class="cafe">Cappuccino</li>
+          <li class="cafe">Latte</li>
+        </ul>
+      </div>
+      <div id="parte2_caja2">
+        <ul class="cafe">
+          <li class="cafe">Tortas</li>
+          <li class="cafe">Cookies</li>
+          <li class="cafe">Tostados</li>
+          <li class="cafe">Amaretis</li>
+          <li class="cafe">Facturas</li>
+          <li class="cafe">Cupcakes</li>
+        </ul>
+      </div>
+    </section>
+    <!--nueva seccion con bootstrap unidad 10-->
+    <section id="parte4">
+      <h2>Novedades</h2>
+      <div id="news" class="container-fluid">
+        <div id="modulo1" class="row">
+          <div id="modulo2" class="col-sm col-xxl-4">
+            <h3>Suscribite al newsletter</h3>
+            <form action="">
+                <input type="text" placeholder="Nombre" class="form-control form-control-lg" required>
+                <input type="email" placeholder="Correo electrónico" class="form-control form-control-lg" required>
+                <input type="submit">
+            </form>
+            <p id="titulo_proximamente">Proximamente:</p>
+                  <ul id="proximamente" class="cafe">
+                    <li class="cafe">Curso de barista de café</li>
+                    <li class="cafe">Degustación de variedades de Etiopía</li>
+                    <li class="cafe">Venta de cafeteras y molinillos</li>
+                    <li class="cafe">Box experiencia Oro Negro</li>
+                    <li class="cafe">Take away</li>
+                  </ul>
+          </div>
+          
+          <div id="modulo3" class="col-sm col-xxl5">
+            <!--incorporacion de carousel con bootstrap-->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <iframe width="480" height="315" src="https://www.youtube.com/embed/OJu29ED-0AI?start=107" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <!--fin incorporación de carousel con bootstrap-->  
+          </div> 
+        <!--<div class="row gx-5">
+          <div class="col">
+           <div class="p-3 border bg-light"></div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light"></div>
+          </div>
+        </div>
+      </div>-->
+    </section>
+    <section id="parte3">
+      <div class="marca">
+        <h2>Contacto</h2>
+        <p>Seguinos en las redes!!!</p>
+        <p>Tenemos una playlist para acompañarte!!!</p>
+      
+      </div>
+      <!--vinculacion a bootstrap-->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <div class="socialMedia">
+        <a href="#"><img src="https://devwebutnrociobaigorria.000webhostapp.com/unidad12/104459_twitter_icon.png" alt="Twitter"></a>
+		    <a href="#"><img src="https://devwebutnrociobaigorria.000webhostapp.com/unidad12/3463476_media_network_pinterest_social_icon.png" alt="Pinterest"></a>
+		    <a href="#"><img src="https://devwebutnrociobaigorria.000webhostapp.com/unidad12/287711_instagram_icon.png" alt="Instagram"></a>
+		    <a href="#"><img src="https://devwebutnrociobaigorria.000webhostapp.com/unidad12/1047447_gmail_google_inbox_mail_icon.png" alt="Gmail"></a>
+        <a href="#"> <img src="https://devwebutnrociobaigorria.000webhostapp.com/unidad12/8010463_spotify_music_audio_song_sound_icon.png" alt="Spotify">  </a>
+      </div> 
+    
+    </section>
+    <footer>
+      <div id="pieDePagina">
+         <p>Diseño web desarrollado por Rocío Baigorria - Ig: @rorobai56</p>
+         <p>Agradecimientos: @dpopbes @lisa.fotios @larissa_farber @meru_journey @orlovamaria</p>  
+      </div>
+    </footer>
+  </body>
+</html>
